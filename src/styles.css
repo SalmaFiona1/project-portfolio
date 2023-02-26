@@ -70,3 +70,10 @@ p {
   font-size: 28px;
   text-decoration: none;
 }
+@media (max-width: 576px) {
+  .launch {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
