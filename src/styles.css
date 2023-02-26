@@ -71,7 +71,8 @@ p {
   text-decoration: none;
 }
 @media (max-width: 576px) {
-  .launch {
+  .launch,
+  #project-one {
     display: block;
     text-align: center;
     margin: 0 20px;
