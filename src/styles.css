@@ -2,10 +2,12 @@
   --primary-color: #0c0763;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --first-heading: "Gloock", serif;
+  --paragraphs: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-  font-family: "Gloock", serif;
+  font-family: var(--first-heading);
 }
 h1,
 h2,
@@ -29,9 +31,10 @@ h3 {
 p {
   padding: 20px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.5;
   text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .test {
